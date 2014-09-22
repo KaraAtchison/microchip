@@ -1,4 +1,5 @@
-Ôªø/******************************************************************************
+/******************************************************************************
+Test 3 Three.
 Test 2!!!
 This is a test of GitHub
    
@@ -61,8 +62,8 @@ processing.  The other source files are:
 Software License Agreement
 
 The software supplied herewith by Microchip Technology Incorporated
-(the ÔøΩCompanyÔøΩ) for its PICmicroÔøΩ Microcontroller is intended and
-supplied to you, the CompanyÔøΩs customer, for use solely and
+(the  Company ) for its PICmicro  Microcontroller is intended and
+supplied to you, the Company s customer, for use solely and
 exclusively on Microchip PICmicro Microcontroller products. The
 software is owned by the Company and/or its supplier, and is
 protected under applicable copyright laws. All rights are reserved.
@@ -71,7 +72,7 @@ user to criminal sanctions under applicable laws, as well as to
 civil liability for the breach of the terms and conditions of this
 license.
 
-THIS SOFTWARE IS PROVIDED IN AN ÔøΩAS ISÔøΩ CONDITION. NO WARRANTIES,
+THIS SOFTWARE IS PROVIDED IN AN  AS IS  CONDITION. NO WARRANTIES,
 WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED
 TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
 PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. THE COMPANY SHALL NOT,
@@ -109,10 +110,10 @@ KO          14-Feb-2008 First release
  * - COG G2 Document number: 4P015-00
  *   Download URL: http://www.pervasivedisplays.com/LiteratureRetrieve.aspx?ID=198794
  * - This project code supports EPD size: 1.44 inch, 2 inch and 2.7 inch
- * - Global Update (also known as ‚ÄúFull Update‚Äù): to update display from one
+ * - Global Update (also known as ìFull Updateî): to update display from one
  *   previous image to another image and every pixel of entire display has been
  *   refreshed and updated.
- * - Partial Update (also known as ‚ÄúLocal Update‚Äù) is the process to update
+ * - Partial Update (also known as ìLocal Updateî) is the process to update
  *   display from one previous image to another image directly but only the
  *   pixels to be changed are updated.
  * - For optical performance and the best contrast ratio quality, PDi recommends
@@ -125,7 +126,7 @@ KO          14-Feb-2008 First release
  *   on EPD, user is able to write next image data to memory and COG without
  *   power off the COG for better visual experience and faster update time.
  * - We highly recommend after several partial patterns have updated on EPD or
- *   finished a demonstration cycle, it‚Äôs better to perform a standard Global
+ *   finished a demonstration cycle, itís better to perform a standard Global
  *   Update stage or Power OFF COG and Power ON while next update to get good
  *   optical performance back. It also improves the ghosting.
  *
@@ -137,7 +138,7 @@ KO          14-Feb-2008 First release
  * - On board LDO voltage regulator to 3V for EPD operation
  * - PICtail Plus Interface for connecting to Explorer 16 Development Board
  * - Open documentation and driving waveform for EPD panel
- * - Provides Microchip MPLAB¬Æ X project source code with Microchip Graphic Library
+ * - Provides Microchip MPLABÆ X project source code with Microchip Graphic Library
  * - Provides global update and partial update driving technology on EPD panels
  *
  * \section File explanation
@@ -185,7 +186,7 @@ KO          14-Feb-2008 First release
  *    -# <b>EPD_controller:</b>\n
  *       The application interface for external function to work with EPD.
  *    -# <b>Pervasive_Displays_small_EPD.h:</b>\n
- *       The header file when using PDI‚Äôs EPD.
+ *       The header file when using PDIís EPD.
  *    -# <b>SpiRAM:</b>\n
  *       The functions of working with serial RAM.
  *    -# <b>COG</b> folder:\n
@@ -214,7 +215,7 @@ KO          14-Feb-2008 First release
  *   code is same as the connected EPD panel. To do this, please select the correct
  *   EPD size from the pull-down menu of MPLAB X IDE.
  *   To check the configurations, right click on the project name and select
- *   [Set Configuration] / [Customize‚Ä¶] / select one of the conf: item /
+ *   [Set Configuration] / [CustomizeÖ] / select one of the conf: item /
  *   [xc16-gcc] / [Preprocessing and messages] option category.
  *   The definition is set in the [Define C macros] item.
  *
