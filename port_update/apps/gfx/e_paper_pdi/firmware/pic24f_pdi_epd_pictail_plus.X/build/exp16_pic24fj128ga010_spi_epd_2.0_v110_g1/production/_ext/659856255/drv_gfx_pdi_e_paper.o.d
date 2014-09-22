@@ -1,0 +1,23 @@
+build/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/production/_ext/659856255/drv_gfx_pdi_e_paper.o:  \
+ ../src/gfx/drv_gfx_pdi_e_paper.c  \
+ ../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system_config.h  \
+ ../src/gfx_config.h  \
+../src/gfx/drv_gfx_pdi_e_paper.h  \
+ ../src/Pervasive_Displays_small_EPD/drv_serial_ram_mchp23k256.h  \
+ ../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system.h  \
+ ../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system_config.h  \
+ ../../../../../framework/driver/spi/drv_spi.h  \
+ ../src/Pervasive_Displays_small_EPD/epd_types.h  \
+ ../../../../../framework/driver/gfx/drv_gfx_display.h  \
+ ../../../../../framework/gfx/gfx_types_macros.h  \
+ ../../../../../framework/gfx/gfx_types_palette.h  \
+ ../../../../../framework/gfx/gfx_types_font.h  \
+ ../../../../../framework/gfx/gfx_types_image.h  \
+ ../../../../../framework/gfx/gfx_types_resource.h  \
+ ../../../../../framework/gfx/gfx_primitive.h  \
+ ../../../../../framework/gfx/gfx_primitive_local.h  \
+ ../src/Pervasive_Displays_small_EPD/Pervasive_Displays_small_EPD.h  \
+ ../src/Pervasive_Displays_small_EPD/EPD_hardware_gpio.h  \
+ ../src/Pervasive_Displays_small_EPD/EPD_COG_process.h  \
+ ../src/Pervasive_Displays_small_EPD/epd_types.h  \
+ ../src/Pervasive_Displays_small_EPD/EPD_controller.h 

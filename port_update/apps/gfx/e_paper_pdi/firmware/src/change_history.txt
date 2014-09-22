@@ -1,0 +1,177 @@
+﻿/**
+ * \page Change History
+ *
+ * The following is a summary of the changes made to the EPD PICtail Plus daughter board with Microchip Explorer 16 kit.
+ * The changes are listed with the most recent first.
+ * - <b>Version 1.02 - 16 May, 2014</b>\n
+ *   -# Fixed the random lines issue after a few minutes auto running on display (PutPixel function in PDI epaper display_driver.c).
+ * - <b>Version 1.01 - 15 Apr, 2014</b>\n
+ *   -# Switch XC16 compiler to v1.21
+ *   -# Fixed the ClearDevice function in gfx\PDI e-paper display_driver.c (originally used memset() function)
+ * - <b>Version 1.00 - 28 Mar, 2014</b>\n
+ *   -# First release and supported V110+G1 and V230+G2 EPD
+ */ 
+
+/*
+
+Driver changes performed by Paolo to port the driver to be compatible with MLA
+release 7/22/14.
+
+PDI e-paper display_driver
+API changes
+1. Changed file names
+    - "PDI e-paper display_driver.h" to drv_gfx_pdi_e_paper.h
+    - "PDI e-paper display_driver.c" to drv_gfx_pdi_e_paper.c
+2. ClearDevice() to GFX_ScreenClear()
+3. ResetDevice() to DRV_GFX_Initialize()
+4. PutPixel() to GFX_PixelPut()
+5. GetPixel() to GFX_PixelGet() - this is empty and added to remove build errors
+6. IsDeviceBusy() to GFX_RenderStatusGet()
+7. StoreScreen() to DRV_EPD_StoreScreen()
+8. read_SRAM_handle() to DRV_EPD_SRAMHandleRead()
+9. EPD_Global_Update() to DRV_EPD_UpdateGlobal()
+10. EPD_Partial_Update() to DRV_EPD_UpdatePartial()
+11. EPD_PWD_Init() to DRV_EPD_PowerUp()
+12. Added DRV_EPD_PowerDown()
+13. Changed EPD_HOR_RESOLUTION to DISP_HOR_RESOLUTION (just set in one place: system_config.h)
+
+EPD_hardware_gpio.c (h) files
+1. removed these files
+2. moved APIs enumerated below to EPD_hardware_driver.c (h):
+    - bool EPD_IsBusy(void) to DRV_EPD_BusyStatusGet()
+    - void EPD_rst_high (void) to DRV_EPD_DisplayDisable()
+    - void EPD_rst_low (void) to DRV_EPD_DisplayEnable()
+    - void EPD_discharge_high (void) to DRV_EPD_DischargeSet()
+    - void EPD_discharge_low (void) to DRV_EPD_DischargeReset()
+    - void EPD_Vcc_turn_off (void) to DRV_EPD_PowerDisable()
+    - void EPD_Vcc_turn_on (void) to DRV_EPD_PowerEnable()
+    - void EPD_border_high(void) to DRV_EPD_BorderEnable()
+    - void EPD_border_low (void) to DRV_EPD_BorderDisable()
+    - void EPD_pwm_low (void) to DRV_EPD_PWMPortReset()
+    - void EPD_pwm_high(void) to DRV_EPD_PWMPortSet()
+
+SpiRAM driver.
+1. Change SpiRAM.c to drv_serial_ram_mchp23k256.c
+2. Change SpiRAM.h to drv_serial_ram_mchp23k256.h
+3. SpiRAM_Init() to DRV_RAM_23K256_Initialize()
+4. SRAMCommand() to DRV_RAM_23K256_CommandSet() - change to inline and static to driver
+5. SRAMWriteStatusReg() to DRV_RAM_23K256_StatusRegisterWrite() - change to inline
+   and static to driver.
+6. SRAMReadStatusReg() to DRV_RAM_23K256_StatusRegisterRead() - change to inline
+   and static to driver.
+7. SRAMWriteByte() to DRV_RAM_23K256_ByteWrite()
+8. SRAMReadByte() to DRV_RAM_23K256_ByteRead()
+9. SRAMWritePage() to DRV_RAM_23K256_PageWrite()
+10. SRAMReadPage() to DRV_RAM_23K256_PageRead()
+11. SRAMWriteSeq() to DRV_RAM_23K256_SequentialWrite()
+12. SRAMReadSeq() to DRV_RAM_23K256_SequentialRead()
+
+EPD Hardware Driver
+1. epd_spi_init() to DRV_EPD_SPI_Initialize(DRV_SPI_INIT_DATA *pInitData).
+2. All calls to epd_spi_init() are done in places where the EPD SPI driver
+   can be initialized already so I modified it to do an attachment call
+   instead. Therefore I added this: DRV_EPD_SPI_Attach(void)
+3. In system.c:
+   DRV_EPD_SPI_Initialize((DRV_SPI_INIT_DATA*)&EPD_SPI_Init_Data);
+   is called to initialize the EPD SPI driver portion of the EPD driver.
+4. epd_spi_detach() to DRV_EPD_SPI_Detach()
+5. More API changes:
+    - void    epd_spi_write(uint8_t data)    to void DRV_EPD_SPI_Write(uint8_t data)
+    - uint8_t epd_spi_read(uint8_t data)     to uint8_t DRV_EPD_SPI_Read(void)
+    - uint8_t epd_spi_write_ex(uint8_t data) to uint8_t DRV_EPD_SPI_WriteEx(uint8_t data)
+    - void epd_spi_send_byte (uint8_t Register, uint8_t Data) to void DRV_EPD_SPI_ByteSend ( uint8_t register_index, uint8_t register_data)
+    - void epd_spi_send (uint8_t Register, uint8_t *Data, uint16_t Length) to void DRV_EPD_SPI_Send (uint8_t register_index, uint8_t *register_data, uint16_t length);
+    - void start_EPD_timer(void) to void DRV_EPD_TIMER_Start(void)
+    - void stop_EPD_timer(void) to void DRV_EPD_TIMER_Stop(void)
+6. Removed the usage of the Timer peripheral library. Instead use the timer_1ms.c and
+   timer_1ms.h drivers located in directories:
+   - bsp/exp16/pic24fj128ga010_pim
+   - bsp/exp16/pic24fj128ga310_pim
+7. Modified uint32_t get_current_time_tick(void) to uint32_t DRV_EPD_TickCountGet(void)
+8. Removed ADC module calls and implementation of ADC to get the temperature
+   sensor value. Instead create the following to implement getting temperature:
+    - create a temperature reading callback function pointer type:
+            typedef uint16_t (*DRV_EPD_TEMPERATURE_GET_FUNC)(void);
+            EPD driver requires users/application to implement the
+            function that will sample the A/D connected to the temp sensor
+    - DRV_EPD_TemperatureGetCallbackSet() - this is the function that the
+            application calls to set the address of the temperature reading
+            callback function before initializing the EPD driver.
+    - create DRV_EPD_TemperatureGet() that will call the callback function to
+      get the temperature value.
+   
+9. Removed the following:
+   - void DRV_EPD_SPI_Write(uint8_t data);
+   - uint8_t DRV_EPD_SPI_Read(void);
+   - uint8_t DRV_EPD_SPI_WriteEx(uint8_t data);
+   These are replaced by buffer read/write or replaced directly with
+   SPI driver Put and Get calls.
+10. Modified the following:
+    - void initialize_temperature(void) to DRV_EPD_TempSensorInitialize(void)
+    - int16_t get_temperature(void) to int16_t DRV_EPD_TemperatureGet(void)
+11. Removed the following empty functions:
+    - void PWM_start_toggle(void);
+    - void PWM_stop_toggle(void);
+12. Modified void PWM_run(uint16_t time) to void DRV_EPD_PWMRun(uint16_t time);
+13. Modified void EPD_display_hardware_init(void) to
+    void DRV_EPD_DisplayDriverInitialize(void)
+14. Replaced all SPI IO pins control and values settings to use the macros
+    of the SPI pins defined in system_config.h
+    See:
+    #define DRV_EPD_SPI_SCK_TRIS        TRISXbits.TRISXY
+    #define DRV_EPD_SPI_SDO_TRIS        TRISXbits.TRISXY
+    #define DRV_EPD_SPI_SDI_TRIS        TRISXbits.TRISXY
+
+    #define DRV_EPD_SPI_SCK_LAT         LATXbits.LATXY
+    #define DRV_EPD_SPI_SDO_LAT         LATXbits.LATXY
+    #define DRV_EPD_SPI_SDI_LAT         LATXbits.LATXY
+
+
+
+Other Changes:
+1. Remove clipping feature. This is now managed in primitive layer 
+   is currently only available for text rendering in a box (GFX_TextStringBoxDraw())
+2. Remove _color variable. This is now managed in primitive layer.
+   Use GFX_ColorGet() to get the current color set and GFX_ColorSet() to set
+   the current color.
+3. Changed the usage of "long" type to uint32_t. "long" is quite large for the
+   expected values. Converted the following:
+
+    #define _epd_image_size     (long)4*1024*3                      //12k
+    #define _epd_page_size()    (_epd_image_size/32)                //memory access per page=32 bytes
+    #define getAddress(page)    (long)(_epd_image_size*page)
+
+    long cur_image_index=0;
+    long previous_image_address, new_image_address;
+
+    to
+
+    #define _epd_image_size     (uint32_t)4*1024*3                  //12k
+    #define _epd_page_size()    (_epd_image_size >> 5)              //memory access per page=32 bytes
+    #define getAddress(page)    (uint32_t)(_epd_image_size*page)
+
+    uint16_t cur_image_index=0;
+    uint32_t previous_image_address, new_image_address;
+4. Removed EPD_config.h file. Instead moved macros where they are needed.
+5. Removed TRUE and FALSE macro and used stdbool.h instead.
+
+Demo Changes
+1. Removed GOLFontDefault. and replaced with Verdana_12. The GOLFontDefault is
+   NOT anymore required. Applications MUST now provide fonts when using
+   character and string rendering.
+2. On the EPD_DEMO5 I removed the picture object that displays the
+   ECG image incrementally. Instead, I used the GFX_ImagePartialDraw()
+   primitive function to perform the incremental rendering.
+3. On the EPD_DEMO5 I have to modify the font used for the temperature,
+   SYS, DIA and PUL since the font used was too big. The Static Text
+   behavior has changed where the text alignment can now be specified.
+   The new change will need a larger height for the static text object to
+   show the size 16 text. By changing it to size 14 it will fit in the
+   area provided.
+4. Removed TimeDelay.c, TimeDelay.h, Compiler.h and GenericTypeDefs.h files.
+5. Split the font and image resources. Each configuration will only compile
+   the needed resources. See apps/gfx/e_paper_pdi/firmware/src/resources
+   directory for details.
+
+
+*/

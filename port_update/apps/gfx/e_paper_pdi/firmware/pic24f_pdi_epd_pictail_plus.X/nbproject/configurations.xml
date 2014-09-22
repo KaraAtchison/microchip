@@ -1,0 +1,2854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="bsp" projectFiles="true">
+        <logicalFolder name="f1" displayName="exp16" projectFiles="true">
+          <logicalFolder name="f2" displayName="pic24fj128ga010_pim" projectFiles="true">
+            <itemPath>../../../../../bsp/exp16/pic24fj128ga010_pim/timer_1ms.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f1" displayName="pic24fj128ga310_pim" projectFiles="true">
+            <itemPath>../../../../../bsp/exp16/pic24fj128ga310_pim/timer_1ms.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="Demo Screen" projectFiles="true">
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo1.h</itemPath>
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo2.h</itemPath>
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo3.h</itemPath>
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo4.h</itemPath>
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo_home.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="framework" projectFiles="true">
+        <logicalFolder name="f2" displayName="driver" projectFiles="true">
+          <logicalFolder name="f3" displayName="eeprom_spi" projectFiles="true">
+            <itemPath>../../../../../framework/driver/eeprom_spi/drv_nvm_eeprom_spi_25lc256.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f1" displayName="gfx" projectFiles="true">
+            <itemPath>../../../../../framework/driver/gfx/drv_gfx_display.h</itemPath>
+            <itemPath>../src/gfx/drv_gfx_pdi_e_paper.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="spi" projectFiles="true">
+            <itemPath>../../../../../framework/driver/spi/drv_spi.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="gfx" projectFiles="true">
+          <itemPath>../../../../../framework/gfx/gfx.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_colors.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_gol.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_gol_button.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_gol_picture.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_gol_scheme.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_gol_scroll_bar.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_gol_static_text.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_primitive.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_types_font.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_types_image.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_types_macros.h</itemPath>
+          <itemPath>../../../../../framework/gfx/gfx_types_resource.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="touch_screen" projectFiles="true">
+          <itemPath>../../../../../framework/driver/touch_screen/drv_touch_resistive_adc.h</itemPath>
+          <itemPath>../../../../../framework/driver/touch_screen/drv_touch_screen.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f3"
+                     displayName="Pervasive_Displays_small_EPD"
+                     projectFiles="true">
+        <itemPath>../src/Pervasive_Displays_small_EPD/EPD_COG_process.h</itemPath>
+        <itemPath>../src/Pervasive_Displays_small_EPD/EPD_controller.h</itemPath>
+        <itemPath>../src/Pervasive_Displays_small_EPD/EPD_hardware_driver.h</itemPath>
+        <itemPath>../src/Pervasive_Displays_small_EPD/Pervasive_Displays_small_EPD.h</itemPath>
+        <itemPath>../src/Pervasive_Displays_small_EPD/epd_types.h</itemPath>
+        <itemPath>../src/Pervasive_Displays_small_EPD/drv_serial_ram_mchp23k256.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="resource" projectFiles="true">
+        <logicalFolder name="f3" displayName="1.44_inch" projectFiles="true">
+          <itemPath>../src/resources/image_resources_epd_1.44_inch_demo.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="2.0_inch" projectFiles="true">
+          <itemPath>../src/resources/image_resources_epd_2.0_inch_demo.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="2.7_inch" projectFiles="true">
+          <itemPath>../src/resources/image_resources_epd_2.7_inch_demo.h</itemPath>
+        </logicalFolder>
+        <itemPath>../src/resources/font_resources_epd_demo.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="system_config" projectFiles="true">
+        <logicalFolder name="f2"
+                       displayName="exp16_pic24fj128ga010_spi_epd_2.0_v110_g1"
+                       projectFiles="true">
+          <itemPath>../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system.h</itemPath>
+          <itemPath>../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system_config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1"
+                       displayName="exp16_pic24fj128ga010_spi_epd_2.7_v110_g1"
+                       projectFiles="true">
+          <itemPath>../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system.h</itemPath>
+          <itemPath>../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system_config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3"
+                       displayName="exp16_pic24fj128ga310_spi_epd_2.7_v110_g1"
+                       projectFiles="true">
+          <itemPath>../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system.h</itemPath>
+          <itemPath>../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system_config.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../src/gfx_config.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerFiles"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="bsp" projectFiles="true">
+        <logicalFolder name="f1" displayName="exp16" projectFiles="true">
+          <logicalFolder name="f1" displayName="pic24fj128ga010_pim" projectFiles="true">
+            <itemPath>../../../../../bsp/exp16/pic24fj128ga010_pim/timer_1ms.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="pic24fj128ga310_pim" projectFiles="true">
+            <itemPath>../../../../../bsp/exp16/pic24fj128ga310_pim/timer_1ms.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f6"
+                     displayName="Demo Screen for 1.44 inch"
+                     projectFiles="true">
+        <itemPath>../src/demo_screen_for_1.44_inch/epd_demo1.c</itemPath>
+        <itemPath>../src/demo_screen_for_1.44_inch/epd_demo2.c</itemPath>
+        <itemPath>../src/demo_screen_for_1.44_inch/epd_demo3.c</itemPath>
+        <itemPath>../src/demo_screen_for_1.44_inch/epd_demo4.c</itemPath>
+        <itemPath>../src/demo_screen_for_1.44_inch/epd_demo_home.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4"
+                     displayName="Demo Screen for 2 inch"
+                     projectFiles="true">
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo1.c</itemPath>
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo2.c</itemPath>
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo3.c</itemPath>
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo4.c</itemPath>
+        <itemPath>../src/demo_screen_for_2_inch/epd_demo_home.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3"
+                     displayName="Demo Screen for 2.7 inch"
+                     projectFiles="true">
+        <itemPath>../src/demo_screen_for_2.7_inch/epd_demo1.c</itemPath>
+        <itemPath>../src/demo_screen_for_2.7_inch/epd_demo2.c</itemPath>
+        <itemPath>../src/demo_screen_for_2.7_inch/epd_demo3.c</itemPath>
+        <itemPath>../src/demo_screen_for_2.7_inch/epd_demo4.c</itemPath>
+        <itemPath>../src/demo_screen_for_2.7_inch/epd_demo_home.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="framework" projectFiles="true">
+        <logicalFolder name="f1" displayName="driver" projectFiles="true">
+          <logicalFolder name="f3" displayName="eeprom_spi" projectFiles="true">
+            <itemPath>../../../../../framework/driver/eeprom_spi/src/drv_nvm_eeprom_spi_25lc256.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f1" displayName="gfx" projectFiles="true">
+            <itemPath>../src/gfx/drv_gfx_pdi_e_paper.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="spi" projectFiles="true">
+            <itemPath>../../../../../framework/driver/spi/src/drv_spi_16bit.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="gfx" projectFiles="true">
+          <itemPath>../../../../../framework/gfx/src/gfx_gol.c</itemPath>
+          <itemPath>../../../../../framework/gfx/src/gfx_gol_button.c</itemPath>
+          <itemPath>../../../../../framework/gfx/src/gfx_gol_picture.c</itemPath>
+          <itemPath>../../../../../framework/gfx/src/gfx_gol_scroll_bar.c</itemPath>
+          <itemPath>../../../../../framework/gfx/src/gfx_gol_static_text.c</itemPath>
+          <itemPath>../../../../../framework/gfx/src/gfx_primitive.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="touch_screen" projectFiles="true">
+          <itemPath>../../../../../framework/driver/touch_screen/src/drv_touch_resistive_adc.c</itemPath>
+          <itemPath>../../../../../framework/driver/touch_screen/src/drv_touch_screen.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="Pervasive_Displays_small_EPD"
+                     displayName="Pervasive_Displays_small_EPD"
+                     projectFiles="true">
+        <logicalFolder name="COG" displayName="COG" projectFiles="true">
+          <logicalFolder name="V110" displayName="V110_G1" projectFiles="true">
+            <itemPath>../src/Pervasive_Displays_small_EPD/COG/V110_G1/EPD_COG_process_V110_G1.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="V230" displayName="V230_G2" projectFiles="true">
+            <itemPath>../src/Pervasive_Displays_small_EPD/COG/V230_G2/EPD_COG_process_V230_G2.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../src/Pervasive_Displays_small_EPD/EPD_controller.c</itemPath>
+        <itemPath>../src/Pervasive_Displays_small_EPD/EPD_hardware_driver.c</itemPath>
+        <itemPath>../src/Pervasive_Displays_small_EPD/drv_serial_ram_mchp23k256.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="resource" projectFiles="true">
+        <logicalFolder name="f3" displayName="1.44_inch" projectFiles="true">
+          <itemPath>../src/resources/image_resources_epd_1.44_inch_demo.S</itemPath>
+          <itemPath>../src/resources/image_resources_epd_1.44_inch_demo_reference.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="2.0_inch" projectFiles="true">
+          <itemPath>../src/resources/image_resources_epd_2.0_inch_demo.S</itemPath>
+          <itemPath>../src/resources/image_resources_epd_2.0_inch_demo_reference.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="2.7_inch" projectFiles="true">
+          <itemPath>../src/resources/image_resources_epd_2.7_inch_demo.S</itemPath>
+          <itemPath>../src/resources/image_resources_epd_2.7_inch_demo_reference.c</itemPath>
+        </logicalFolder>
+        <itemPath>../src/resources/font_resources_epd_demo.S</itemPath>
+        <itemPath>../src/resources/font_resources_epd_demo_reference.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="system_config" projectFiles="true">
+        <logicalFolder name="f2"
+                       displayName="exp16_pic24fj128ga010_spi_epd_2.0_v110_g1"
+                       projectFiles="true">
+          <itemPath>../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1"
+                       displayName="exp16_pic24fj128ga010_spi_epd_2.7_v110_g1"
+                       projectFiles="true">
+          <itemPath>../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3"
+                       displayName="exp16_pic24fj128ga310_spi_epd_2.7_v110_g1"
+                       projectFiles="true">
+          <itemPath>../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../src/Change_history.txt</itemPath>
+      <itemPath>../src/main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src</Elem>
+    <Elem>../../../Microchip/Graphics</Elem>
+    <Elem>../../../Microchip/Include</Elem>
+    <Elem>../../../Microchip/Common</Elem>
+    <Elem>../../../../../framework/gfx</Elem>
+    <Elem>../../../../../framework/driver/gfx</Elem>
+    <Elem>../../../../../framework/driver/spi</Elem>
+    <Elem>../../../../../bsp/exp16/pic24fj128ga010_pim</Elem>
+    <Elem>../../../../../bsp/exp16/pic24fj128ga310_pim</Elem>
+    <Elem>../../../../../framework/driver/touch_screen</Elem>
+    <Elem>../../../../../framework/driver/eeprom_spi</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="exp16_pic24fj128ga010_spi_epd_2.7_v110_g1" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC24FJ128GA010</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>RealICEPlatformTool</platformTool>
+        <languageToolchain>XC16</languageToolchain>
+        <languageToolchainVersion>1.21</languageToolchainVersion>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../../../../../bsp/exp16/pic24fj128ga310_pim/timer_1ms.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../../../../../bsp/exp16/pic24fj128ga310_pim/timer_1ms.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo1.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo2.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo3.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo4.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo_home.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo1.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo2.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo3.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo4.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo_home.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_1.44_inch_demo.S"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_1.44_inch_demo.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_1.44_inch_demo_reference.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.0_inch_demo.S"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.0_inch_demo.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.0_inch_demo_reference.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system_config.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system_config.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <C30>
+        <property key="code-model" value="large-code"/>
+        <property key="const-model" value="default"/>
+        <property key="data-model" value="default"/>
+        <property key="enable-all-warnings" value="false"/>
+        <property key="enable-ansi-std" value="false"/>
+        <property key="enable-ansi-warnings" value="false"/>
+        <property key="enable-fatal-warnings" value="false"/>
+        <property key="enable-large-arrays" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-procedural-abstraction" value="false"/>
+        <property key="enable-short-double" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="extra-include-directories"
+                  value="../../../../../bsp/exp16/pic24fj128ga010_pim;../src/Pervasive_Displays_small_EPD;../src/demo_screen_for_2_inch;../src;../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1;../../../../../framework;../src/gfx;../src/resources"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="keep-inline" value="false"/>
+        <property key="oXC16gcc-align-arr" value="false"/>
+        <property key="oXC16gcc-cnsts-mauxflash" value="false"/>
+        <property key="oXC16gcc-data-sects" value="false"/>
+        <property key="oXC16gcc-errata" value=""/>
+        <property key="oXC16gcc-fillupper" value=""/>
+        <property key="oXC16gcc-large-aggregate" value="false"/>
+        <property key="oXC16gcc-mauxflash" value="false"/>
+        <property key="oXC16gcc-mpa-lvl" value=""/>
+        <property key="oXC16gcc-name-text-sec" value=""/>
+        <property key="oXC16gcc-near-chars" value="false"/>
+        <property key="oXC16gcc-no-isr-warn" value="false"/>
+        <property key="oXC16gcc-sfr-warn" value="false"/>
+        <property key="oXC16gcc-smar-io-lvl" value="1"/>
+        <property key="oXC16gcc-smart-io-fmt" value=""/>
+        <property key="optimization-level" value="1"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="scalar-model" value="default"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+      </C30>
+      <C30-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C30-AR>
+      <C30-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler"
+                  value="../src;../../../../../framework;../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1;../src/gfx;../../../../../../bsp/exp16/pic24fj128ga010_pim;../src/resources"/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-section-info" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC16asm-extra-opts" value=""/>
+        <property key="oXC16asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="relax" value="false"/>
+        <property key="warning-level" value="emit-warnings"/>
+      </C30-AS>
+      <C30-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="boot-eeprom" value="no_eeprom"/>
+        <property key="boot-flash" value="no_flash"/>
+        <property key="boot-ram" value="no_ram"/>
+        <property key="boot-write-protect" value="no_write_protect"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="enable-data-init" value="true"/>
+        <property key="enable-default-isr" value="true"/>
+        <property key="enable-handles" value="true"/>
+        <property key="enable-pack-data" value="true"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="general-code-protect" value="no_code_protect"/>
+        <property key="general-write-protect" value="no_write_protect"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="heap-size" value="2048"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-stack" value="true"/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value=""/>
+        <property key="oXC16ld-extra-opts" value=""/>
+        <property key="oXC16ld-fill-upper" value="0"/>
+        <property key="oXC16ld-force-link" value="false"/>
+        <property key="oXC16ld-no-smart-io" value="false"/>
+        <property key="oXC16ld-nostdlib" value="false"/>
+        <property key="oXC16ld-stackguard" value="16"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="true"/>
+        <property key="secure-eeprom" value="no_eeprom"/>
+        <property key="secure-flash" value="no_flash"/>
+        <property key="secure-ram" value="no_ram"/>
+        <property key="secure-write-protect" value="no_write_protect"/>
+        <property key="stack-size" value="16"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C30-LD>
+      <C30Global>
+        <property key="common-include-directories" value=""/>
+        <property key="dual-boot-partition" value="0"/>
+        <property key="fast-math" value="false"/>
+        <property key="generic-16-bit" value="false"/>
+        <property key="legacy-libc" value="false"/>
+        <property key="oXC16glb-macros" value=""/>
+        <property key="output-file-format" value="elf"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+      </C30Global>
+      <RealICEPlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CRC" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="RIExTrigs.Five" value="OFF"/>
+        <property key="RIExTrigs.Four" value="OFF"/>
+        <property key="RIExTrigs.One" value="OFF"/>
+        <property key="RIExTrigs.Seven" value="OFF"/>
+        <property key="RIExTrigs.Six" value="OFF"/>
+        <property key="RIExTrigs.Three" value="OFF"/>
+        <property key="RIExTrigs.Two" value="OFF"/>
+        <property key="RIExTrigs.Zero" value="OFF"/>
+        <property key="SPI 1" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART 1" value="true"/>
+        <property key="UART 2" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.download.all" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="hwtoolclock.instructionspeed" value="4"/>
+        <property key="hwtoolclock.units" value="mips"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x157fb"/>
+        <property key="memories.programmemory.partition2" value="true"/>
+        <property key="memories.programmemory.partition2.end"
+                  value="${memories.programmemory.partition2.end.value}"/>
+        <property key="memories.programmemory.partition2.start"
+                  value="${memories.programmemory.partition2.start.value}"/>
+        <property key="memories.programmemory.start" value="0x0"/>
+        <property key="memories.userotp" value="false"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x157fb"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x0"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="tracecontrol.collectioninterval" value="1"/>
+        <property key="tracecontrol.collectionunits" value="1"/>
+        <property key="tracecontrol.disablemacros" value="false"/>
+        <property key="tracecontrol.functionprofile.summary" value="false"/>
+        <property key="tracecontrol.include.timestamp" value="false"/>
+        <property key="tracecontrol.medium" value="0"/>
+        <property key="tracecontrol.portselect" value="0"/>
+        <property key="tracecontrol.select" value="0"/>
+        <property key="tracecontrol.spiselect" value="0"/>
+        <property key="tracecontrol.stallontracebufferfull" value="false"/>
+        <property key="tracecontrol.timerpriority" value="3"/>
+        <property key="tracecontrol.timerselect" value="0"/>
+        <property key="tracecontrol.tracebufmax" value="546000"/>
+        <property key="tracecontrol.tracefile"
+                  value="/Users/c13522/Documents/CustomerSupport/epaper/code/port/apps/gfx/e_paper_pdi/firmware/pic24f_pdi_epd_pictail_plus.X/debug/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/defmplabxtrace.log"/>
+        <property key="tracecontrol.tracefilemax" value="10000000"/>
+        <property key="voltagevalue" value="3.25"/>
+      </RealICEPlatformTool>
+    </conf>
+    <conf name="exp16_pic24fj128ga010_spi_epd_2.0_v110_g1" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC24FJ128GA010</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>RealICEPlatformTool</platformTool>
+        <languageToolchain>XC16</languageToolchain>
+        <languageToolchainVersion>1.21</languageToolchainVersion>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../../../../../bsp/exp16/pic24fj128ga310_pim/timer_1ms.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../../../../../bsp/exp16/pic24fj128ga310_pim/timer_1ms.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo1.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo2.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo3.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo4.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo_home.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2.7_inch/epd_demo1.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2.7_inch/epd_demo2.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2.7_inch/epd_demo3.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2.7_inch/epd_demo4.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2.7_inch/epd_demo_home.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_1.44_inch_demo.S"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_1.44_inch_demo.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_1.44_inch_demo_reference.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.7_inch_demo.S"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.7_inch_demo.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.7_inch_demo_reference.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system_config.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system_config.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <C30>
+        <property key="code-model" value="large-code"/>
+        <property key="const-model" value="default"/>
+        <property key="data-model" value="default"/>
+        <property key="enable-all-warnings" value="false"/>
+        <property key="enable-ansi-std" value="false"/>
+        <property key="enable-ansi-warnings" value="false"/>
+        <property key="enable-fatal-warnings" value="false"/>
+        <property key="enable-large-arrays" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-procedural-abstraction" value="false"/>
+        <property key="enable-short-double" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src/Pervasive_Displays_small_EPD;../src/demo_screen_for_2_inch;../src;../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1;../../../../../framework;../src/gfx;../../../../../bsp/exp16/pic24fj128ga010_pim;../src/resources"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="keep-inline" value="false"/>
+        <property key="oXC16gcc-align-arr" value="false"/>
+        <property key="oXC16gcc-cnsts-mauxflash" value="false"/>
+        <property key="oXC16gcc-data-sects" value="false"/>
+        <property key="oXC16gcc-errata" value=""/>
+        <property key="oXC16gcc-fillupper" value=""/>
+        <property key="oXC16gcc-large-aggregate" value="false"/>
+        <property key="oXC16gcc-mauxflash" value="false"/>
+        <property key="oXC16gcc-mpa-lvl" value=""/>
+        <property key="oXC16gcc-name-text-sec" value=""/>
+        <property key="oXC16gcc-near-chars" value="false"/>
+        <property key="oXC16gcc-no-isr-warn" value="false"/>
+        <property key="oXC16gcc-sfr-warn" value="false"/>
+        <property key="oXC16gcc-smar-io-lvl" value="1"/>
+        <property key="oXC16gcc-smart-io-fmt" value=""/>
+        <property key="optimization-level" value="1"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="scalar-model" value="default"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+      </C30>
+      <C30-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C30-AR>
+      <C30-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler"
+                  value="../src;../../../../../framework;../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1;../src/gfx;../src/resources"/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-section-info" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC16asm-extra-opts" value=""/>
+        <property key="oXC16asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="relax" value="false"/>
+        <property key="warning-level" value="emit-warnings"/>
+      </C30-AS>
+      <C30-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="boot-eeprom" value="no_eeprom"/>
+        <property key="boot-flash" value="no_flash"/>
+        <property key="boot-ram" value="no_ram"/>
+        <property key="boot-write-protect" value="no_write_protect"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="enable-data-init" value="true"/>
+        <property key="enable-default-isr" value="true"/>
+        <property key="enable-handles" value="true"/>
+        <property key="enable-pack-data" value="true"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="general-code-protect" value="no_code_protect"/>
+        <property key="general-write-protect" value="no_write_protect"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="heap-size" value="1024"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-stack" value="true"/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value=""/>
+        <property key="oXC16ld-extra-opts" value=""/>
+        <property key="oXC16ld-fill-upper" value="0"/>
+        <property key="oXC16ld-force-link" value="false"/>
+        <property key="oXC16ld-no-smart-io" value="false"/>
+        <property key="oXC16ld-nostdlib" value="false"/>
+        <property key="oXC16ld-stackguard" value="16"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="true"/>
+        <property key="secure-eeprom" value="no_eeprom"/>
+        <property key="secure-flash" value="no_flash"/>
+        <property key="secure-ram" value="no_ram"/>
+        <property key="secure-write-protect" value="no_write_protect"/>
+        <property key="stack-size" value="16"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C30-LD>
+      <C30Global>
+        <property key="common-include-directories" value=""/>
+        <property key="dual-boot-partition" value="0"/>
+        <property key="fast-math" value="false"/>
+        <property key="generic-16-bit" value="false"/>
+        <property key="legacy-libc" value="false"/>
+        <property key="oXC16glb-macros" value=""/>
+        <property key="output-file-format" value="elf"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+      </C30Global>
+      <RealICEPlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CRC" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="RIExTrigs.Five" value="OFF"/>
+        <property key="RIExTrigs.Four" value="OFF"/>
+        <property key="RIExTrigs.One" value="OFF"/>
+        <property key="RIExTrigs.Seven" value="OFF"/>
+        <property key="RIExTrigs.Six" value="OFF"/>
+        <property key="RIExTrigs.Three" value="OFF"/>
+        <property key="RIExTrigs.Two" value="OFF"/>
+        <property key="RIExTrigs.Zero" value="OFF"/>
+        <property key="SPI 1" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART 1" value="true"/>
+        <property key="UART 2" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="hwtoolclock.instructionspeed" value="4"/>
+        <property key="hwtoolclock.units" value="mips"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x157fb"/>
+        <property key="memories.programmemory.partition2" value="true"/>
+        <property key="memories.programmemory.partition2.end"
+                  value="${memories.programmemory.partition2.end.value}"/>
+        <property key="memories.programmemory.partition2.start"
+                  value="${memories.programmemory.partition2.start.value}"/>
+        <property key="memories.programmemory.start" value="0x0"/>
+        <property key="memories.userotp" value="false"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x157fb"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x0"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="tracecontrol.collectioninterval" value="1"/>
+        <property key="tracecontrol.collectionunits" value="1"/>
+        <property key="tracecontrol.disablemacros" value="false"/>
+        <property key="tracecontrol.functionprofile.summary" value="false"/>
+        <property key="tracecontrol.include.timestamp" value="false"/>
+        <property key="tracecontrol.medium" value="0"/>
+        <property key="tracecontrol.portselect" value="0"/>
+        <property key="tracecontrol.select" value="0"/>
+        <property key="tracecontrol.spiselect" value="0"/>
+        <property key="tracecontrol.stallontracebufferfull" value="false"/>
+        <property key="tracecontrol.timerpriority" value="3"/>
+        <property key="tracecontrol.timerselect" value="0"/>
+        <property key="tracecontrol.tracebufmax" value="546000"/>
+        <property key="tracecontrol.tracefile"
+                  value="/Users/c13522/Documents/CustomerSupport/epaper/code/port/apps/gfx/e_paper_pdi/firmware/pic24f_pdi_epd_pictail_plus.X/debug/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/defmplabxtrace.log"/>
+        <property key="tracecontrol.tracefilemax" value="10000000"/>
+        <property key="voltagevalue" value="3.25"/>
+      </RealICEPlatformTool>
+    </conf>
+    <conf name="exp16_pic24fj128ga010_spi_epd_1.44_v110_g1" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC24FJ128GA010</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC16</languageToolchain>
+        <languageToolchainVersion>1.21</languageToolchainVersion>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../../../../../bsp/exp16/pic24fj128ga310_pim/timer_1ms.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../../../../../bsp/exp16/pic24fj128ga310_pim/timer_1ms.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.0_inch_demo.S"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.0_inch_demo.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.0_inch_demo_reference.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.7_inch_demo.S"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.7_inch_demo.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.7_inch_demo_reference.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system_config.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system_config.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1/system_config.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <C30>
+        <property key="code-model" value="large-code"/>
+        <property key="const-model" value="default"/>
+        <property key="data-model" value="default"/>
+        <property key="enable-all-warnings" value="false"/>
+        <property key="enable-ansi-std" value="false"/>
+        <property key="enable-ansi-warnings" value="false"/>
+        <property key="enable-fatal-warnings" value="false"/>
+        <property key="enable-large-arrays" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-procedural-abstraction" value="false"/>
+        <property key="enable-short-double" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src/Pervasive_Displays_small_EPD;../src/gfx;../src/Demo Screen for 2 inch;../src;..;../../../Microchip/Include;../../../../../bsp/exp16/pic24fj128ga010_pim;../src/resources"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="keep-inline" value="false"/>
+        <property key="oXC16gcc-align-arr" value="false"/>
+        <property key="oXC16gcc-cnsts-mauxflash" value="false"/>
+        <property key="oXC16gcc-data-sects" value="false"/>
+        <property key="oXC16gcc-errata" value=""/>
+        <property key="oXC16gcc-fillupper" value=""/>
+        <property key="oXC16gcc-large-aggregate" value="false"/>
+        <property key="oXC16gcc-mauxflash" value="false"/>
+        <property key="oXC16gcc-mpa-lvl" value=""/>
+        <property key="oXC16gcc-name-text-sec" value=""/>
+        <property key="oXC16gcc-near-chars" value="false"/>
+        <property key="oXC16gcc-no-isr-warn" value="false"/>
+        <property key="oXC16gcc-sfr-warn" value="false"/>
+        <property key="oXC16gcc-smar-io-lvl" value="1"/>
+        <property key="oXC16gcc-smart-io-fmt" value=""/>
+        <property key="optimization-level" value="1"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value="USE_EPD_Type=EPD_144;COG_V110_G1"/>
+        <property key="scalar-model" value="default"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+      </C30>
+      <C30-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C30-AR>
+      <C30-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-section-info" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC16asm-extra-opts" value=""/>
+        <property key="oXC16asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="relax" value="false"/>
+        <property key="warning-level" value="emit-warnings"/>
+      </C30-AS>
+      <C30-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="boot-eeprom" value="no_eeprom"/>
+        <property key="boot-flash" value="no_flash"/>
+        <property key="boot-ram" value="no_ram"/>
+        <property key="boot-write-protect" value="no_write_protect"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="enable-data-init" value="true"/>
+        <property key="enable-default-isr" value="true"/>
+        <property key="enable-handles" value="true"/>
+        <property key="enable-pack-data" value="true"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="general-code-protect" value="no_code_protect"/>
+        <property key="general-write-protect" value="no_write_protect"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="heap-size" value="1024"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-stack" value="true"/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value=""/>
+        <property key="oXC16ld-extra-opts" value=""/>
+        <property key="oXC16ld-fill-upper" value="0"/>
+        <property key="oXC16ld-force-link" value="false"/>
+        <property key="oXC16ld-no-smart-io" value="false"/>
+        <property key="oXC16ld-nostdlib" value="false"/>
+        <property key="oXC16ld-stackguard" value="16"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="true"/>
+        <property key="secure-eeprom" value="no_eeprom"/>
+        <property key="secure-flash" value="no_flash"/>
+        <property key="secure-ram" value="no_ram"/>
+        <property key="secure-write-protect" value="no_write_protect"/>
+        <property key="stack-size" value="16"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C30-LD>
+      <C30Global>
+        <property key="common-include-directories" value=""/>
+        <property key="dual-boot-partition" value="0"/>
+        <property key="fast-math" value="false"/>
+        <property key="generic-16-bit" value="false"/>
+        <property key="legacy-libc" value="false"/>
+        <property key="oXC16glb-macros" value=""/>
+        <property key="output-file-format" value="elf"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+      </C30Global>
+      <PICkit3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CRC" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="SPI 1" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART 1" value="true"/>
+        <property key="UART 2" value="true"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="false"/>
+        <property key="memories.configurationmemory" value="false"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="false"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="false"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x157fb"/>
+        <property key="memories.programmemory.start" value="0x0"/>
+        <property key="memories.userotp" value="false"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x157fb"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x0"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VPPFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </PICkit3PlatformTool>
+    </conf>
+    <conf name="exp16_pic24fj128ga310_spi_epd_2.7_v110_g1" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC24FJ128GA310</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>RealICEPlatformTool</platformTool>
+        <languageToolchain>XC16</languageToolchain>
+        <languageToolchainVersion>1.21</languageToolchainVersion>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../../../../../bsp/exp16/pic24fj128ga010_pim/timer_1ms.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../../../../../bsp/exp16/pic24fj128ga010_pim/timer_1ms.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo1.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo2.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo3.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo4.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_1.44_inch/epd_demo_home.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo1.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo2.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo3.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo4.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/demo_screen_for_2_inch/epd_demo_home.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_1.44_inch_demo.S"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_1.44_inch_demo.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_1.44_inch_demo_reference.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.0_inch_demo.S"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.0_inch_demo.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/resources/image_resources_epd_2.0_inch_demo_reference.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.0_v110_g1/system_config.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system.c"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <item path="../src/system_config/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/system_config.h"
+            ex="true"
+            overriding="false">
+        <C30>
+        </C30>
+        <C30-AR>
+        </C30-AR>
+        <C30-AS>
+        </C30-AS>
+        <C30-LD>
+        </C30-LD>
+        <C30Global>
+        </C30Global>
+      </item>
+      <C30>
+        <property key="code-model" value="large-code"/>
+        <property key="const-model" value="default"/>
+        <property key="data-model" value="default"/>
+        <property key="enable-all-warnings" value="false"/>
+        <property key="enable-ansi-std" value="false"/>
+        <property key="enable-ansi-warnings" value="false"/>
+        <property key="enable-fatal-warnings" value="false"/>
+        <property key="enable-large-arrays" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-procedural-abstraction" value="false"/>
+        <property key="enable-short-double" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src/Pervasive_Displays_small_EPD;../src/demo_screen_for_2_inch;../src;../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1;../../../../../framework;../src/gfx;../../../../../bsp/exp16/pic24fj128ga310_pim;../src/resources"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="keep-inline" value="false"/>
+        <property key="oXC16gcc-align-arr" value="false"/>
+        <property key="oXC16gcc-cnsts-mauxflash" value="false"/>
+        <property key="oXC16gcc-data-sects" value="false"/>
+        <property key="oXC16gcc-errata" value=""/>
+        <property key="oXC16gcc-fillupper" value=""/>
+        <property key="oXC16gcc-large-aggregate" value="false"/>
+        <property key="oXC16gcc-mauxflash" value="false"/>
+        <property key="oXC16gcc-mpa-lvl" value=""/>
+        <property key="oXC16gcc-name-text-sec" value=""/>
+        <property key="oXC16gcc-near-chars" value="false"/>
+        <property key="oXC16gcc-no-isr-warn" value="false"/>
+        <property key="oXC16gcc-sfr-warn" value="false"/>
+        <property key="oXC16gcc-smar-io-lvl" value="1"/>
+        <property key="oXC16gcc-smart-io-fmt" value=""/>
+        <property key="optimization-level" value="1"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="scalar-model" value="default"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+      </C30>
+      <C30-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C30-AR>
+      <C30-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler"
+                  value="../src;../../../../../framework;../src/system_config/exp16_pic24fj128ga310_spi_epd_2.7_v110_g1;../src/gfx;../src/resources"/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-section-info" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC16asm-extra-opts" value=""/>
+        <property key="oXC16asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="relax" value="false"/>
+        <property key="warning-level" value="emit-warnings"/>
+      </C30-AS>
+      <C30-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="boot-eeprom" value="no_eeprom"/>
+        <property key="boot-flash" value="no_flash"/>
+        <property key="boot-ram" value="no_ram"/>
+        <property key="boot-write-protect" value="no_write_protect"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="enable-data-init" value="true"/>
+        <property key="enable-default-isr" value="true"/>
+        <property key="enable-handles" value="true"/>
+        <property key="enable-pack-data" value="true"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="general-code-protect" value="no_code_protect"/>
+        <property key="general-write-protect" value="no_write_protect"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="heap-size" value="2048"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-stack" value="true"/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value=""/>
+        <property key="oXC16ld-extra-opts" value=""/>
+        <property key="oXC16ld-fill-upper" value="0"/>
+        <property key="oXC16ld-force-link" value="false"/>
+        <property key="oXC16ld-no-smart-io" value="false"/>
+        <property key="oXC16ld-nostdlib" value="false"/>
+        <property key="oXC16ld-stackguard" value="16"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="true"/>
+        <property key="secure-eeprom" value="no_eeprom"/>
+        <property key="secure-flash" value="no_flash"/>
+        <property key="secure-ram" value="no_ram"/>
+        <property key="secure-write-protect" value="no_write_protect"/>
+        <property key="stack-size" value="16"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C30-LD>
+      <C30Global>
+        <property key="common-include-directories" value=""/>
+        <property key="dual-boot-partition" value="0"/>
+        <property key="fast-math" value="false"/>
+        <property key="generic-16-bit" value="false"/>
+        <property key="legacy-libc" value="false"/>
+        <property key="oXC16glb-macros" value=""/>
+        <property key="output-file-format" value="elf"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+      </C30Global>
+      <RealICEPlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CLOCK CONTROL" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="CRC" value="true"/>
+        <property key="CTMU" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INPUT CAPTURE 6" value="true"/>
+        <property key="INPUT CAPTURE 7" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="OUTPUT COMPARE 6" value="true"/>
+        <property key="OUTPUT COMPARE 7" value="true"/>
+        <property key="RIExTrigs.Five" value="OFF"/>
+        <property key="RIExTrigs.Four" value="OFF"/>
+        <property key="RIExTrigs.One" value="OFF"/>
+        <property key="RIExTrigs.Seven" value="OFF"/>
+        <property key="RIExTrigs.Six" value="OFF"/>
+        <property key="RIExTrigs.Three" value="OFF"/>
+        <property key="RIExTrigs.Two" value="OFF"/>
+        <property key="RIExTrigs.Zero" value="OFF"/>
+        <property key="RTCC" value="true"/>
+        <property key="SPI 1" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART 1" value="true"/>
+        <property key="UART 2" value="true"/>
+        <property key="UART 3" value="true"/>
+        <property key="UART 4" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.download.all" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="hwtoolclock.instructionspeed" value="4"/>
+        <property key="hwtoolclock.units" value="mips"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x157fb"/>
+        <property key="memories.programmemory.partition2" value="true"/>
+        <property key="memories.programmemory.partition2.end"
+                  value="${memories.programmemory.partition2.end.value}"/>
+        <property key="memories.programmemory.partition2.start"
+                  value="${memories.programmemory.partition2.start.value}"/>
+        <property key="memories.programmemory.start" value="0x0"/>
+        <property key="memories.userotp" value="false"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x157fb"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x0"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="tracecontrol.collectioninterval" value="1"/>
+        <property key="tracecontrol.collectionunits" value="1"/>
+        <property key="tracecontrol.disablemacros" value="false"/>
+        <property key="tracecontrol.functionprofile.summary" value="false"/>
+        <property key="tracecontrol.include.timestamp" value="false"/>
+        <property key="tracecontrol.medium" value="0"/>
+        <property key="tracecontrol.portselect" value="0"/>
+        <property key="tracecontrol.select" value="0"/>
+        <property key="tracecontrol.spiselect" value="0"/>
+        <property key="tracecontrol.stallontracebufferfull" value="false"/>
+        <property key="tracecontrol.timerpriority" value="3"/>
+        <property key="tracecontrol.timerselect" value="0"/>
+        <property key="tracecontrol.tracebufmax" value="546000"/>
+        <property key="tracecontrol.tracefile"
+                  value="/Users/c13522/Documents/CustomerSupport/epaper/code/port/apps/gfx/e_paper_pdi/firmware/pic24f_pdi_epd_pictail_plus.X/debug/exp16_pic24fj128ga010_spi_epd_2.7_v110_g1/defmplabxtrace.log"/>
+        <property key="tracecontrol.tracefilemax" value="10000000"/>
+        <property key="voltagevalue" value="3.25"/>
+      </RealICEPlatformTool>
+    </conf>
+    <conf name="EPD_2.7inch_V230_G2" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC24FJ128GA010</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC16</languageToolchain>
+        <languageToolchainVersion>1.21</languageToolchainVersion>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C30>
+        <property key="code-model" value="large-code"/>
+        <property key="const-model" value="default"/>
+        <property key="data-model" value="default"/>
+        <property key="enable-all-warnings" value="false"/>
+        <property key="enable-ansi-std" value="false"/>
+        <property key="enable-ansi-warnings" value="false"/>
+        <property key="enable-fatal-warnings" value="false"/>
+        <property key="enable-large-arrays" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-procedural-abstraction" value="false"/>
+        <property key="enable-short-double" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src/Pervasive_Displays_small_EPD;../src/gfx;../src/Demo Screen for 2 inch;../src;..;../../../Microchip/Include"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="keep-inline" value="false"/>
+        <property key="oXC16gcc-align-arr" value="false"/>
+        <property key="oXC16gcc-cnsts-mauxflash" value="false"/>
+        <property key="oXC16gcc-data-sects" value="false"/>
+        <property key="oXC16gcc-errata" value=""/>
+        <property key="oXC16gcc-fillupper" value=""/>
+        <property key="oXC16gcc-large-aggregate" value="false"/>
+        <property key="oXC16gcc-mauxflash" value="false"/>
+        <property key="oXC16gcc-mpa-lvl" value=""/>
+        <property key="oXC16gcc-name-text-sec" value=""/>
+        <property key="oXC16gcc-near-chars" value="false"/>
+        <property key="oXC16gcc-no-isr-warn" value="false"/>
+        <property key="oXC16gcc-sfr-warn" value="false"/>
+        <property key="oXC16gcc-smar-io-lvl" value="1"/>
+        <property key="oXC16gcc-smart-io-fmt" value=""/>
+        <property key="optimization-level" value="1"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value="USE_EPD_Type=EPD_270;COG_V230_G2"/>
+        <property key="scalar-model" value="default"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+      </C30>
+      <C30-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C30-AR>
+      <C30-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-section-info" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC16asm-extra-opts" value=""/>
+        <property key="oXC16asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="relax" value="false"/>
+        <property key="warning-level" value="emit-warnings"/>
+      </C30-AS>
+      <C30-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="boot-eeprom" value="no_eeprom"/>
+        <property key="boot-flash" value="no_flash"/>
+        <property key="boot-ram" value="no_ram"/>
+        <property key="boot-write-protect" value="no_write_protect"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="enable-data-init" value="true"/>
+        <property key="enable-default-isr" value="true"/>
+        <property key="enable-handles" value="true"/>
+        <property key="enable-pack-data" value="true"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="general-code-protect" value="no_code_protect"/>
+        <property key="general-write-protect" value="no_write_protect"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="heap-size" value="1024"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-stack" value="true"/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value=""/>
+        <property key="oXC16ld-extra-opts" value=""/>
+        <property key="oXC16ld-fill-upper" value="0"/>
+        <property key="oXC16ld-force-link" value="false"/>
+        <property key="oXC16ld-no-smart-io" value="false"/>
+        <property key="oXC16ld-nostdlib" value="false"/>
+        <property key="oXC16ld-stackguard" value="16"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="true"/>
+        <property key="secure-eeprom" value="no_eeprom"/>
+        <property key="secure-flash" value="no_flash"/>
+        <property key="secure-ram" value="no_ram"/>
+        <property key="secure-write-protect" value="no_write_protect"/>
+        <property key="stack-size" value="16"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C30-LD>
+      <C30Global>
+        <property key="common-include-directories" value=""/>
+        <property key="dual-boot-partition" value="0"/>
+        <property key="fast-math" value="false"/>
+        <property key="generic-16-bit" value="false"/>
+        <property key="legacy-libc" value="false"/>
+        <property key="oXC16glb-macros" value=""/>
+        <property key="output-file-format" value="elf"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+      </C30Global>
+      <PICkit3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CRC" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="SPI 1" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART 1" value="true"/>
+        <property key="UART 2" value="true"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="false"/>
+        <property key="memories.configurationmemory" value="false"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="false"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="false"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x157fb"/>
+        <property key="memories.programmemory.start" value="0x0"/>
+        <property key="memories.userotp" value="false"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x157fb"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x0"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VPPFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </PICkit3PlatformTool>
+    </conf>
+    <conf name="EPD_2.0inch_V230_G2" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC24FJ128GA010</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC16</languageToolchain>
+        <languageToolchainVersion>1.21</languageToolchainVersion>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C30>
+        <property key="code-model" value="large-code"/>
+        <property key="const-model" value="default"/>
+        <property key="data-model" value="default"/>
+        <property key="enable-all-warnings" value="false"/>
+        <property key="enable-ansi-std" value="false"/>
+        <property key="enable-ansi-warnings" value="false"/>
+        <property key="enable-fatal-warnings" value="false"/>
+        <property key="enable-large-arrays" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-procedural-abstraction" value="false"/>
+        <property key="enable-short-double" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src/Pervasive_Displays_small_EPD;../src/gfx;../src/Demo Screen for 2 inch;../src;..;../../../Microchip/Include"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="keep-inline" value="false"/>
+        <property key="oXC16gcc-align-arr" value="false"/>
+        <property key="oXC16gcc-cnsts-mauxflash" value="false"/>
+        <property key="oXC16gcc-data-sects" value="false"/>
+        <property key="oXC16gcc-errata" value=""/>
+        <property key="oXC16gcc-fillupper" value=""/>
+        <property key="oXC16gcc-large-aggregate" value="false"/>
+        <property key="oXC16gcc-mauxflash" value="false"/>
+        <property key="oXC16gcc-mpa-lvl" value=""/>
+        <property key="oXC16gcc-name-text-sec" value=""/>
+        <property key="oXC16gcc-near-chars" value="false"/>
+        <property key="oXC16gcc-no-isr-warn" value="false"/>
+        <property key="oXC16gcc-sfr-warn" value="false"/>
+        <property key="oXC16gcc-smar-io-lvl" value="1"/>
+        <property key="oXC16gcc-smart-io-fmt" value=""/>
+        <property key="optimization-level" value="1"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value="USE_EPD_Type=EPD_200;COG_V230_G2"/>
+        <property key="scalar-model" value="default"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+      </C30>
+      <C30-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C30-AR>
+      <C30-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-section-info" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC16asm-extra-opts" value=""/>
+        <property key="oXC16asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="relax" value="false"/>
+        <property key="warning-level" value="emit-warnings"/>
+      </C30-AS>
+      <C30-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="boot-eeprom" value="no_eeprom"/>
+        <property key="boot-flash" value="no_flash"/>
+        <property key="boot-ram" value="no_ram"/>
+        <property key="boot-write-protect" value="no_write_protect"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="enable-data-init" value="true"/>
+        <property key="enable-default-isr" value="true"/>
+        <property key="enable-handles" value="true"/>
+        <property key="enable-pack-data" value="true"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="general-code-protect" value="no_code_protect"/>
+        <property key="general-write-protect" value="no_write_protect"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="heap-size" value="1024"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-stack" value="true"/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value=""/>
+        <property key="oXC16ld-extra-opts" value=""/>
+        <property key="oXC16ld-fill-upper" value="0"/>
+        <property key="oXC16ld-force-link" value="false"/>
+        <property key="oXC16ld-no-smart-io" value="false"/>
+        <property key="oXC16ld-nostdlib" value="false"/>
+        <property key="oXC16ld-stackguard" value="16"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="true"/>
+        <property key="secure-eeprom" value="no_eeprom"/>
+        <property key="secure-flash" value="no_flash"/>
+        <property key="secure-ram" value="no_ram"/>
+        <property key="secure-write-protect" value="no_write_protect"/>
+        <property key="stack-size" value="16"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C30-LD>
+      <C30Global>
+        <property key="common-include-directories" value=""/>
+        <property key="dual-boot-partition" value="0"/>
+        <property key="fast-math" value="false"/>
+        <property key="generic-16-bit" value="false"/>
+        <property key="legacy-libc" value="false"/>
+        <property key="oXC16glb-macros" value=""/>
+        <property key="output-file-format" value="elf"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+      </C30Global>
+      <PICkit3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CRC" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="SPI 1" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART 1" value="true"/>
+        <property key="UART 2" value="true"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="false"/>
+        <property key="memories.configurationmemory" value="false"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="false"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="false"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x157fb"/>
+        <property key="memories.programmemory.start" value="0x0"/>
+        <property key="memories.userotp" value="false"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x157fb"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x0"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VPPFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </PICkit3PlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><Graphics_Resource_Converter>
+<Configuration>
+<major>4</major>
+<minor>1</minor>
+<compiler>C30/XC16</compiler>
+<format>CArray</format>
+<graphics_module>false</graphics_module>
+<bitmap_padding_type>padding</bitmap_padding_type>
+<graphics_model>16 bpp</graphics_model>
+</Configuration>
+<Fonts>
+<Font_Resource>
+<label>Verdana_12</label>
+<name>Verdana</name>
+<size>12</size>
+<height>16</height>
+<anti_aliasing>1 bit per pixel</anti_aliasing>
+<first_character>32</first_character>
+<last_character>126</last_character>
+<font_filter>None</font_filter>
+</Font_Resource>
+<Font_Resource>
+<label>Verdana_Bold_36_number</label>
+<name>Verdana</name>
+<size>36</size>
+<height>45</height>
+<bold>true</bold>
+<anti_aliasing>1 bit per pixel</anti_aliasing>
+<first_character>48</first_character>
+<last_character>57</last_character>
+<font_filter>num_filter.txt</font_filter>
+</Font_Resource>
+<Font_Resource>
+<label>Verdana_Bold_10</label>
+<name>Verdana</name>
+<size>10</size>
+<height>14</height>
+<bold>true</bold>
+<anti_aliasing>1 bit per pixel</anti_aliasing>
+<first_character>32</first_character>
+<last_character>126</last_character>
+<font_filter>None</font_filter>
+</Font_Resource>
+<Font_Resource>
+<label>Verdana_Bold_12</label>
+<name>Verdana</name>
+<size>12</size>
+<height>16</height>
+<bold>true</bold>
+<anti_aliasing>1 bit per pixel</anti_aliasing>
+<first_character>32</first_character>
+<last_character>126</last_character>
+<font_filter>None</font_filter>
+</Font_Resource>
+<Font_Resource>
+<label>Verdana_Bold_14</label>
+<name>Verdana</name>
+<size>14</size>
+<height>18</height>
+<bold>true</bold>
+<anti_aliasing>1 bit per pixel</anti_aliasing>
+<first_character>32</first_character>
+<last_character>126</last_character>
+<font_filter>None</font_filter>
+</Font_Resource>
+<Font_Resource>
+<label>Verdana_Bold_16</label>
+<name>Verdana</name>
+<size>16</size>
+<height>21</height>
+<bold>true</bold>
+<anti_aliasing>1 bit per pixel</anti_aliasing>
+<first_character>32</first_character>
+<last_character>126</last_character>
+<font_filter>None</font_filter>
+</Font_Resource>
+<Font_Resource>
+<label>Verdana_Bold_28</label>
+<name>Verdana</name>
+<size>28</size>
+<height>35</height>
+<bold>true</bold>
+<anti_aliasing>1 bit per pixel</anti_aliasing>
+<first_character>32</first_character>
+<last_character>57</last_character>
+<font_filter>None</font_filter>
+</Font_Resource>
+</Fonts>
+</Graphics_Resource_Converter>
